@@ -91,7 +91,13 @@ def respond(query):
     q = query.strip()
     if not q:
         return "Bạn hãy nhập câu hỏi nhé."
-  out_of_scope = ["thời tiết","mưa","nắng","nhiệt độ","dự báo thời tiết","trời mưa","trời nắng","bão","lạnh","nóng","bầu cử","chính trị","đau bụng","kết quả bóng đá","tỷ giá"]
+  out_of_scope = [
+    "thời tiết", "mưa", "nắng", "nhiệt độ",
+    "dự báo thời tiết", "trời mưa", "trời nắng",
+    "bão", "lạnh", "nóng",
+    "bầu cử", "chính trị", "đau bụng",
+    "kết quả bóng đá", "tỷ giá"
+]
     if any(w in q.lower() for w in out_of_scope):
         return "Mình là chatbot demo hỗ trợ tìm sản phẩm, xem đánh giá và dự báo nhu cầu từ dữ liệu mẫu. Mình chưa hỗ trợ chủ đề này."
     row = product_by_name(q)

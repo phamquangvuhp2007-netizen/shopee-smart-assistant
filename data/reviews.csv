@@ -1,0 +1,11 @@
+review_id,product_id,review_text
+R001,P001,"Âm thanh tốt, pin dùng khá lâu, đáng tiền."
+R002,P001,Chất lượng ổn nhưng pin nhanh hết sau một thời gian.
+R003,P001,"Đeo thoải mái, giao hàng nhanh."
+R004,P002,"Pin rất trâu, dùng lâu, kết nối ổn định."
+R005,P002,"Âm thanh hơi nhỏ, nhưng thiết kế đẹp."
+R006,P003,"Âm thanh tuyệt vời, chất lượng tốt."
+R007,P004,"Dễ sử dụng, kết nối nhanh."
+R008,P004,"Sau vài ngày dùng thì bị lag, không hài lòng."
+R009,P005,"Gõ rất thích, chắc chắn, nhưng hơi ồn."
+R010,P006,"Sạc nhanh, tiện lợi, dung lượng tốt."

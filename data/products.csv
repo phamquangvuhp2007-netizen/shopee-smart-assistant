@@ -1,0 +1,7 @@
+product_id,name,category,price_vnd,rating,battery_hours,stock_status
+P001,Tai nghe Bluetooth A,Tai nghe,399000,4.7,30,Còn hàng
+P002,Tai nghe Bluetooth B,Tai nghe,459000,4.5,40,Còn hàng
+P003,Tai nghe Bluetooth C,Tai nghe,650000,4.8,35,Còn hàng
+P004,Chuột không dây D,Phụ kiện máy tính,199000,4.6,0,Còn hàng
+P005,Bàn phím cơ E,Phụ kiện máy tính,790000,4.4,0,Còn hàng
+P006,Sạc dự phòng F,Phụ kiện điện thoại,299000,4.3,0,Còn hàng

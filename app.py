@@ -91,7 +91,7 @@ def respond(query):
     q = query.strip()
     if not q:
         return "Bạn hãy nhập câu hỏi nhé."
-    out_of_scope = ["thời tiết","bầu cử","chính trị","đau bụng","kết quả bóng đá","tỷ giá"]
+  out_of_scope = ["thời tiết","mưa","nắng","nhiệt độ","dự báo thời tiết","trời mưa","trời nắng","bão","lạnh","nóng","bầu cử","chính trị","đau bụng","kết quả bóng đá","tỷ giá"]
     if any(w in q.lower() for w in out_of_scope):
         return "Mình là chatbot demo hỗ trợ tìm sản phẩm, xem đánh giá và dự báo nhu cầu từ dữ liệu mẫu. Mình chưa hỗ trợ chủ đề này."
     row = product_by_name(q)
@@ -128,7 +128,7 @@ st.title("🛍️ Shopee Smart Assistant")
 st.caption("Chatbot demo phục vụ bài tập — không phải chatbot chính thức của Shopee.")
 with st.sidebar:
     st.header("Chức năng")
-    st.markdown("- Tìm kiếm sản phẩm mẫu\n- Truy xuất review\n- Phân tích cảm xúc cơ bản\n- Dự báo nhu cầu bằng trung bình trượt\n- Xử lý câu hỏi ngoài phạm vi")
+    st.markdown("- Tìm kiếm sản phẩm mẫu\n- Truy xuất review\n- Phân tích cảm xúc cơ bản\n- Dự báo nhu cầu bằng trung bình \n- Xử lý câu hỏi ngoài phạm vi")
     st.warning("Dữ liệu sản phẩm, review và doanh số trong bản demo đều là dữ liệu giả lập. Không đại diện cho Shopee.")
     st.header("Ví dụ câu hỏi")
     examples = [

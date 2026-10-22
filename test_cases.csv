@@ -1,0 +1,9 @@
+﻿test_id,input,expected_result,execution_method,status
+TC01,Tìm tai nghe dưới 500 nghìn,Chỉ trả về tai nghe có giá <= 500.000đ,Chạy thủ công,Chưa chạy
+TC02,Thông tin Tai nghe Bluetooth A,"Hiển thị đúng mã, giá, rating, pin từ products.csv",Chạy thủ công,Chưa chạy
+TC03,Review Tai nghe Bluetooth A,Hiển thị review của P001 và nhãn sentiment demo,Chạy thủ công,Chưa chạy
+TC04,Dự báo nhu cầu Tai nghe Bluetooth A tuần sau,Hiển thị forecast từ weekly_sales.csv và nêu rõ dữ liệu giả lập,Chạy thủ công,Chưa chạy
+TC05,Ngày mai Hà Nội có mưa không?,"Thông báo ngoài phạm vi, không bịa thông tin thời tiết",Chạy thủ công,Chưa chạy
+TC06,Thông tin sản phẩm XYZ không tồn tại,Yêu cầu làm rõ hoặc thông báo chưa nhận diện được sản phẩm,Chạy thủ công,Chưa chạy
+TC07,Tìm bàn phím dưới 500 nghìn,Không trả về sản phẩm có giá vượt 500.000đ,Chạy thủ công,Chưa chạy
+TC08,Review Chuột không dây D,Tìm review đúng mã P004,Chạy thủ công,Chưa chạy
